@@ -1,0 +1,14 @@
+# normalise line endings on text, never touch binary payloads
+* text=auto eol=lf
+
+*.js   text
+*.css  text
+*.html text
+*.md   text
+*.py   text
+*.json text
+
+*.png   binary
+*.gif   binary
+*.mp4   binary
+*.woff2 binary

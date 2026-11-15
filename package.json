@@ -1,0 +1,10 @@
+{
+  "name": "glyphbloom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Field studies in ASCII x pixel x bloom - five generative posters, pure WebGL2, no build step.",
+  "scripts": {
+    "start": "python3 -m http.server 8899",
+    "capture": "python3 tools/capture.py"
+  }
+}
