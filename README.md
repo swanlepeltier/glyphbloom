@@ -4,6 +4,8 @@ Field studies in **ASCII × pixel × bloom** — five generative posters built f
 character grid, a glyph atlas, and one HDR bloom chain. Everything is WebGL2,
 no dependencies, no build step.
 
+**Live:** https://swanlepeltier.github.io/glyphbloom/
+
 ![GLYPHBLOOM — contact sheet](output/final/web/contact.png)
 
 ```
@@ -95,3 +97,7 @@ reproducible with `tools/capture.py` and would otherwise add ~1.2 GB of binaries
 - The poster frame is HTML, not part of the shader: `--ui 0` gives the clean plate.
 - Frames are seeded by time only, so any `t` reproduces exactly; there is no
   simulation state to warm up.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
